@@ -33,7 +33,6 @@ brew gdk-pixbuf
 brew gettext
 brew ghi
 brew git
-brew git-cal
 brew glib
 brew gmp
 brew gnupg
