@@ -1,0 +1,225 @@
+
+# tap repositories and their packages
+
+tap homebrew/core
+brew ack
+brew adns
+brew ant
+brew autoconf
+brew awscli
+brew bower
+brew cairo
+brew cask
+brew ccat
+brew clang-format
+brew cmake
+brew coreutils
+brew cscope
+brew ctags
+brew docker
+brew docker-machine
+brew emacs
+brew ffmpeg
+brew figlet
+brew fish
+brew fontconfig
+brew freetype
+brew fribidi
+brew fswatch
+brew fzf
+brew gd
+brew gdbm
+brew gdk-pixbuf
+brew gettext
+brew ghi
+brew git
+brew git-cal
+brew glib
+brew gmp
+brew gnupg
+brew gnutls
+brew go
+brew gradle
+brew graphite2
+brew graphviz
+brew harfbuzz
+brew htop
+brew httpie
+brew hub
+brew icu4c
+brew imagemagick
+brew jpeg
+brew jq
+brew lame
+brew libassuan
+brew libcroco
+brew libevent
+brew libffi
+brew libgcrypt
+brew libgpg-error
+brew libidn2
+brew libksba
+brew libpng
+brew librsvg
+brew libtasn1
+brew libtiff
+brew libtool
+brew libunistring
+brew libusb
+brew libyaml
+brew libzip
+brew lnav
+brew lua
+brew luajit
+brew m-cli
+brew mackup
+brew macvim --with-override-system-vim --with-lua --with-luajit
+brew mas
+brew maven
+brew mitmproxy
+brew mongodb
+brew mtr
+brew ncurses
+brew nettle
+brew nginx
+brew node
+brew npth
+brew nvm
+brew oniguruma
+brew openssl
+brew p11-kit
+brew p7zip
+brew pandoc
+brew pango
+brew pcre
+brew pcre2
+brew perl
+brew pinentry
+brew pixman
+brew pkg-config
+brew platformio
+brew protobuf
+brew pv
+brew pwgen
+brew pyenv
+brew python
+brew python@2
+brew qt
+brew readline
+brew reattach-to-user-namespace
+brew redis
+brew rsync
+brew ruby
+brew screenfetch
+brew slimerjs
+brew sqlite
+brew ssh-copy-id
+brew tag
+brew testssl
+brew the_silver_searcher
+brew thefuck
+brew tldr
+brew tmux
+brew todo-txt
+brew tree
+brew uncrustify
+brew unison
+brew unrar
+brew vim
+brew watch
+brew watchman
+brew webp
+brew wget
+brew x264
+brew xvid
+brew xz
+brew yarn
+brew youtube-dl
+brew zsh
+brew zsh-autosuggestions
+brew zsh-syntax-highlighting
+
+tap homebrew/bundle
+
+tap homebrew/cask-versions
+cask google-chrome-canary
+cask java8
+
+tap homebrew/services
+
+tap homebrew/cask
+cask 1password
+cask android-file-transfer
+cask android-platform-tools
+cask android-studio
+cask bartender
+cask bitbar
+cask divvy
+cask dropbox
+cask etcher
+cask fork
+cask gimp
+cask hma-pro-vpn
+cask karabiner
+cask launchcontrol
+cask macdown
+cask openscad
+cask postman
+cask react-native-debugger
+cask shiftit
+cask spotify
+cask steam
+cask tigervnc-viewer
+cask virtualbox
+cask vlc
+
+tap getantibody/tap
+brew antibody
+
+tap moul/moul
+brew docker-diff
+
+tap rcmdnk/file
+brew brew-file
+
+# Other Homebrew packages
+brew chromedriver
+
+# Other Cask applications
+cask alfred
+cask android-ndk
+cask android-sdk
+cask arduino
+cask bettertouchtool
+cask boostnote
+cask docker-toolbox
+cask entonnoir
+cask firefox
+cask franz
+cask google-chrome
+cask kap
+cask keyboard-maestro
+cask launchrocket
+cask nvalt
+cask opera
+cask pycharm
+cask rdm
+cask robo-3t
+cask sourcetree
+cask squidman
+cask textmate
+cask totalspaces
+cask visual-studio-code
+cask vnc-viewer
+
+# App Store applications
+appstore 937984704 Amphetamine (4.0.4)
+appstore 1081413713 GIF Brewery 3 (3.9.1)
+appstore 408981434 iMovie (10.1.9)
+appstore 0 Install macOS Mojave (14.0.22)
+appstore 526298438 Lightshot Screenshot (2.18)
+appstore 414030210 LimeChat (2.43)
+appstore 823766827 OneDrive (18.151.0729)
+appstore 880001334 Reeder (3.2.1)
+appstore 803453959 Slack (3.3.2)
+appstore 497799835 Xcode_10 (10.0)

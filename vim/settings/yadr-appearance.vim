@@ -27,5 +27,5 @@ else
   end
 endif
 
-colorscheme solarized
+colorscheme desert
 set background=dark
