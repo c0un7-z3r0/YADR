@@ -146,7 +146,7 @@ brew zsh-syntax-highlighting
 tap homebrew/bundle
 
 tap homebrew/cask-versions
-cask java8
+cask firefox-developer-edition
 
 tap homebrew/services
 
@@ -210,6 +210,7 @@ cask etcher
 cask franz
 cask google-chrome
 cask hma-pro-vpn
+cask java8
 cask karabiner
 cask launchcontrol
 cask macdown

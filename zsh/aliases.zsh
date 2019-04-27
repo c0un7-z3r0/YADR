@@ -48,12 +48,12 @@ TRAPHUP() {
   source $yadr/zsh/aliases.zsh
 }
 
-alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
-alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
-alias gar="killall -HUP -u \"$USER\" zsh"  #global alias reload
+alias ae='vim $yadr/zsh/aliases.zsh'      #alias edit
+alias ar='source $yadr/zsh/aliases.zsh'   #alias reload
+alias gar="killall -HUP -u \"$USER\" zsh" #global alias reload
 
 # vim using
-mvim --version > /dev/null 2>&1
+mvim --version >/dev/null 2>&1
 MACVIM_INSTALLED=$?
 if [ $MACVIM_INSTALLED -eq 0 ]; then
   alias vim="mvim -v"
@@ -143,7 +143,7 @@ alias cl='clear'
 alias gz='tar -zcvf'
 
 # Ruby
-alias c='rails c' # Rails 3
+alias c='rails c'         # Rails 3
 alias co='script/console' # Rails 2
 alias cod='script/console --debugger'
 
@@ -190,7 +190,6 @@ alias srdm='spring rake db:migrate'
 alias srdt='spring rake db:migrate'
 alias srdmt='spring rake db:migrate db:test:prepare'
 
-
 # Sprintly - https://github.com/nextbigsoundinc/Sprintly-GitHub
 alias sp='sprintly'
 # spb = sprintly branch - create a branch automatically based on the bug you're working on
@@ -211,3 +210,18 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cleanup && brew doctor'
+
+# scripts
+alias resizeImages='~/.yadr/scripts/resizeImages.sh'
+alias php-serve='php -S localhost:8000'
+
+# yarn
+alias yw='yarn watch'
+alias yi='yarn install'
+alias ys='yarn start'
+alias yp='yarn publish'
+alias yb='yarn build'
+alias yibw='yarn && yarn build && yarn watch'
+alias patch='yarn version --patch'
+alias major='yarn version --major'
+alias minor='yarn version --minor'
