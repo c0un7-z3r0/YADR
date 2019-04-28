@@ -7,7 +7,6 @@
 
 export HOMEBREW_BREWFILE=~/.yadr/brew/Brewfile brew file install
 
-
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
@@ -23,7 +22,6 @@ fi
 POWERLEVEL9K_MODE='nerdfont-complete'
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-
 POWERLEVEL9K_NODE_VERSION_BACKGROUND="black"
 POWERLEVEL9K_NODE_VERSION_FOREGROUND="007"
 POWERLEVEL9K_NODE_VERSION_VISUAL_IDENTIFIER_COLOR="002"
@@ -33,8 +31,6 @@ POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=1
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-
-
 
 # place this after nvm initialization!
 autoload -U add-zsh-hook
@@ -57,3 +53,6 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$(go env GOPATH)/bin
