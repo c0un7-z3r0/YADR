@@ -5,6 +5,7 @@ tap homebrew/core
 brew ack
 brew adns
 brew ant
+brew aom
 brew autoconf
 brew automake
 brew awscli
@@ -23,8 +24,10 @@ brew emacs
 brew ffmpeg
 brew figlet
 brew fish
+brew flac
 brew fontconfig
 brew freetype
+brew frei0r
 brew fribidi
 brew fswatch
 brew fzf
@@ -33,6 +36,7 @@ brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew ghi
+brew giflib
 brew git
 brew glib
 brew gmp
@@ -53,7 +57,10 @@ brew imagemagick
 brew jpeg
 brew jq
 brew lame
+brew leptonica
+brew libass
 brew libassuan
+brew libbluray
 brew libcroco
 brew libevent
 brew libffi
@@ -61,21 +68,27 @@ brew libgcrypt
 brew libgpg-error
 brew libidn2
 brew libksba
+brew libogg
 brew libpng
 brew librsvg
+brew libsamplerate
+brew libsndfile
+brew libsoxr
 brew libtasn1
 brew libtiff
 brew libtool
 brew libunistring
 brew libusb
+brew libvorbis
+brew libvpx
 brew libyaml
 brew libzip
+brew little-cms2
 brew lnav
 brew lua
 brew luajit
 brew m-cli
 brew mackup
-brew macvim --with-override-system-vim --with-lua --with-luajit
 brew mas
 brew maven
 brew mitmproxy
@@ -88,7 +101,10 @@ brew node
 brew npth
 brew nvm
 brew oniguruma
+brew opencore-amr
+brew openjpeg
 brew openssl
+brew opus
 brew p11-kit
 brew p7zip
 brew pandoc
@@ -111,17 +127,24 @@ brew readline
 brew reattach-to-user-namespace
 brew redis
 brew rsync
+brew rtmpdump
+brew rubberband
 brew ruby
 brew screenfetch
+brew sdl2
 brew shfmt
 brew slimerjs
+brew snappy
+brew speex
 brew sqlite
 brew ssh-copy-id
 brew tag
 brew telnet
+brew tesseract
 brew testssl
 brew the_silver_searcher
 brew thefuck
+brew theora
 brew tldr
 brew tmux
 brew todo-txt
@@ -131,10 +154,12 @@ brew unison
 brew unrar
 brew vim
 brew watch
+brew watchexec
 brew watchman
 brew webp
 brew wget
 brew x264
+brew x265
 brew xvid
 brew xz
 brew yarn
@@ -146,6 +171,7 @@ brew zsh-syntax-highlighting
 tap homebrew/bundle
 
 tap homebrew/cask-versions
+cask brave-browser-dev
 cask firefox-developer-edition
 
 tap homebrew/services
@@ -178,6 +204,9 @@ cask virtualbox
 cask vivaldi
 cask vnc-viewer
 
+tap candid82/brew
+brew joker
+
 tap caskroom/fonts
 cask font-fira-code
 
@@ -191,6 +220,8 @@ brew docker-diff
 
 tap rcmdnk/file
 brew brew-file
+
+tap yqrashawn/goku
 
 # Other Homebrew packages
 brew chromedriver
@@ -211,7 +242,7 @@ cask franz
 cask google-chrome
 cask hma-pro-vpn
 cask java8
-cask karabiner
+cask karabiner-elements
 cask launchcontrol
 cask macdown
 cask nvalt
