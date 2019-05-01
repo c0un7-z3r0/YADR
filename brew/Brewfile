@@ -170,6 +170,10 @@ brew zsh-syntax-highlighting
 
 tap homebrew/bundle
 
+tap homebrew/cask-fonts
+cask font-fira-code
+cask font-hack-nerd-font
+
 tap homebrew/cask-versions
 cask brave-browser-dev
 cask firefox-developer-edition
@@ -208,7 +212,9 @@ tap candid82/brew
 brew joker
 
 tap caskroom/fonts
-cask font-fira-code
+cask font-firacode-nerd-font
+
+tap caskroom/fonts
 
 tap getantibody/tap
 brew antibody
